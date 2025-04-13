@@ -126,7 +126,7 @@ export default function App() {
               I’m a 2nd year student at U-M studying UX Design & Research with a minor in Entrepreneurship.
             </p>
             <a
-              href="https://drive.google.com/file/d/12cFAGpju6PO5QW9V3-l_Bc1zKxtDFspx/view"
+              href="https://docs.google.com/document/d/1uFUDKYxf9eQ6CqSpzd9fAUdW88HRwtiXI0YsM81fW98/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-[#fec45d] hover:underline underline-offset-4 decoration-[#fec45d]"
@@ -170,7 +170,7 @@ export default function App() {
             I'm always seeking to deepen my knowledge of user-centered design and combine my passions for tech and community service to push society forward.
           </p>
           <a
-            href="https://drive.google.com/file/d/12cFAGpju6PO5QW9V3-l_Bc1zKxtDFspx/view"
+            href="https://docs.google.com/document/d/1uFUDKYxf9eQ6CqSpzd9fAUdW88HRwtiXI0YsM81fW98/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold text-[#fec45d] hover:underline underline-offset-4 decoration-[#fec45d]"
