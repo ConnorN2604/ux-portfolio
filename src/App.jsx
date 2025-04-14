@@ -170,7 +170,7 @@ export default function App() {
           <p className="max-w-[620px] text-lg leading-[27px] font-medium mb-6">
             I’m passionate about designing accessible, human-centered digital products that create real impact.
             <br /><br />
-            At the University of Michigan, I’m pursuing a degree in UX Design & Research with a minor in Entrepreneurship. Through hands-on projects and student orgs like <strong>Tech for Social Good, Michigan Open UX</strong> and <strong>Reach Consulting Group</strong>, I’ve gained real-world experience in creating design systems, user research, wireframing, prototyping, and usability testing.
+            At the University of Michigan, I’m pursuing a degree in UX Design & Research with a minor in Entrepreneurship. Through hands-on projects and student orgs like <strong>Tech for Social Good, Michigan Open UX</strong> and <strong>Reach Consulting Group</strong>, I’ve gained real-world experience in building design systems, conducting user research, wireframing, prototyping, and usability testing.
             <br /><br />
             I’m always exploring new ways to combine thoughtful design, technical execution, and community service — with the goal of building products that serve people meaningfully and inclusively.
           </p>
