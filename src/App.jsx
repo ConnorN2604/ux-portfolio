@@ -37,7 +37,7 @@ export default function App() {
     {
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/connornolan26",
-      color: "text-[#1e90ff]", // Adjusted to a more accessible blue
+      color: "text-[#1e90ff]",
     },
     {
       title: "Instagram",
@@ -121,11 +121,10 @@ export default function App() {
           </div>
           <div className="flex flex-col gap-8">
             <p className="text-[28px] leading-[39.2px] font-medium">
-              I am a <span className="text-[#fec45d]">UX Designer</span> and{" "}
-              <span className="text-[#fec45d]">Developer</span> based in Ann Arbor, Michigan.
+              <span className="text-[#fec45d]">UX Designer & Developer</span> crafting accessible, research-driven digital experiences.
             </p>
             <p className="text-[28px] leading-[39.2px] font-medium">
-              I’m a 2nd year student at U-M studying UX Design & Research with a minor in Entrepreneurship.
+              2nd-year UX Design & Research student at U-M, combining design thinking, technical execution, and a passion for social impact.
             </p>
             <a
               href="https://docs.google.com/document/d/1uFUDKYxf9eQ6CqSpzd9fAUdW88HRwtiXI0YsM81fW98/edit?usp=sharing"
@@ -144,11 +143,13 @@ export default function App() {
             {projects.map((project, i) => (
               <div key={i} className="flex flex-col gap-4 w-full">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={project.image}
-                    alt={project.alt}
-                    className="w-full h-[300px] object-cover rounded-md transition-transform duration-300 hover:scale-105"
-                  />
+                  <div className="aspect-[4/3] w-full overflow-hidden rounded-md">
+                    <img
+                      src={project.image}
+                      alt={project.alt}
+                      className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
                 </a>
                 <h3 className="text-2xl font-medium">{project.title}</h3>
                 <a
@@ -167,9 +168,11 @@ export default function App() {
         <section id="about" className="scroll-mt-20" data-aos="fade-up">
           <h2 className="text-[48px] sm:text-[64px] font-medium mb-8">About Me</h2>
           <p className="max-w-[620px] text-lg leading-[27px] font-medium mb-6">
-            I'm passionate about creating accessible digital products for everyone. Through coursework and student orgs like Tech for Social Good and Reach Consulting Group, I've gained experience in user research and real-world interfaces.
+            I’m passionate about designing accessible, human-centered digital products that create real impact.
             <br /><br />
-            I'm always seeking to deepen my knowledge of user-centered design and combine my passions for tech and community service to push society forward.
+            At the University of Michigan, I’m pursuing a degree in UX Design & Research with a minor in Entrepreneurship. Through hands-on projects and student orgs like <strong>Tech for Social Good, Michigan Open UX</strong> and <strong>Reach Consulting Group</strong>, I’ve gained real-world experience in creating design systems, user research, wireframing, prototyping, and usability testing.
+            <br /><br />
+            I’m always exploring new ways to combine thoughtful design, technical execution, and community service — with the goal of building products that serve people meaningfully and inclusively.
           </p>
           <a
             href="https://docs.google.com/document/d/1uFUDKYxf9eQ6CqSpzd9fAUdW88HRwtiXI0YsM81fW98/edit?usp=sharing"
