@@ -20,12 +20,14 @@ export default function App() {
     {
       title: "U-M GPT Redesign",
       image: "/image.png",
+      alt: "Screenshot of the U-M GPT Redesign home page mocked up on a PC",
       link: "https://www.figma.com/design/909GSkZakIttQAuYsv492r/U-MGPT%3A-Final-Design-%2B-Deck?node-id=0-1",
       linkText: "VIEW DESIGN + SLIDE DECK →",
     },
     {
       title: "ClubHouse - Michigan Student Org App",
       image: "/image-2.png",
+      alt: "Screenshot of home page of ClubHouse mobile app project",
       link: "https://www.figma.com/design/cpHZNIFWloOGaP6fwUsaAB/Project-1---Connor-Nolan?node-id=1-2",
       linkText: "VIEW DESIGN AND PROTOTYPE →",
     },
@@ -35,7 +37,7 @@ export default function App() {
     {
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/connornolan26",
-      color: "text-[#0077b7]",
+      color: "text-[#1e90ff]", // Adjusted to a more accessible blue
     },
     {
       title: "Instagram",
@@ -58,7 +60,7 @@ export default function App() {
     <div className="bg-neutral-900 text-white min-h-screen scroll-smooth">
       <a
         href="#main-content"
-        className="absolute left-4 top-4 z-50 bg-[#fec45d] text-black px-4 py-2 font-semibold rounded transform transition-transform duration-200 -translate-y-20 focus:translate-y-0 focus:outline-none"
+        className="absolute left-4 top-4 z-50 bg-[#fec45d] text-black px-4 py-2 font-semibold rounded transform transition-transform duration-200 -translate-y-20 focus:translate-y-20 focus:outline-none"
       >
         Skip to main content
       </a>
@@ -113,7 +115,7 @@ export default function App() {
           <div className="w-full max-w-[320px]">
             <img
               src="/IMG_2180.jpg"
-              alt="Connor Nolan"
+              alt="Connor Nolan Smiling in front of a tree"
               className="w-full h-[400px] object-cover object-[70%] rounded-lg border border-white/20 shadow-md"
             />
           </div>
@@ -144,7 +146,7 @@ export default function App() {
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={project.alt}
                     className="w-full h-[300px] object-cover rounded-md transition-transform duration-300 hover:scale-105"
                   />
                 </a>
