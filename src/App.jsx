@@ -124,7 +124,7 @@ export default function App() {
               <span className="text-[#fec45d]">UX Designer & Developer</span> crafting accessible, research-driven digital experiences.
             </p>
             <p className="text-[28px] leading-[39.2px] font-medium">
-              2nd-year UX Design & Research student at U-M, combining design thinking, technical execution, and a passion for social impact.
+              2nd-year UX Design & Research student at the University of Michigan, combining design thinking, technical execution, and a passion for social impact.
             </p>
             <a
               href="https://docs.google.com/document/d/1uFUDKYxf9eQ6CqSpzd9fAUdW88HRwtiXI0YsM81fW98/edit?usp=sharing"
