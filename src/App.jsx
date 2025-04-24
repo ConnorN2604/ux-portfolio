@@ -15,7 +15,6 @@ export default function App() {
     { title: "About", href: "#about" },
     { title: "Contact", href: "#contact" },
   ];
-
   const projects = [
     {
       title: "U-M GPT Redesign",
@@ -46,7 +45,6 @@ export default function App() {
         "bg-gradient-to-r from-[#505bd1] via-[#fec45d] via-[#e93e59] to-[#da2e78] bg-clip-text text-transparent",
     },
   ];
-
   const scrollTo = (e, id) => {
     e.preventDefault();
     const el = document.querySelector(id);
